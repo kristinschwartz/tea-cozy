@@ -30,6 +30,10 @@ header {
   opacity: 0.9;
 }
 
+nav {
+  margin-right: 10px;
+
+}
 nav span {
   display: inline-block;
   margin-left: 10px;
@@ -39,6 +43,7 @@ nav span {
 content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .mission {
@@ -50,6 +55,7 @@ content {
   background-position: center center;
   height: 700px;
   width: 1200px;
+  margin: auto;
 }
 
 .text {
@@ -60,4 +66,69 @@ content {
 h2 h4 {
   color: seashell;
   opacity: 0.9;
+}
+
+.tea-month {
+  display: block;
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.image-divs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-images img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.location {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 50px;
+}
+
+.text-3 {
+margin-bottom: none;
+}
+
+.black-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px 0 20px;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
 }
